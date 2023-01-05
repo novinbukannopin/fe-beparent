@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    font-family: 'Poppins';
+}
+
+nav.nav-custom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    position: relative;
+    z-index: 99;
+}
+
+.nav-left{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links-custom{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* btn & link */
+a.link-secondary{
+    text-decoration: none;
+    color: #969696;
+}
+
+button.btn-primary-custom{
+    background: #8EBBFF;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 14px 28px;
+    border-radius: 8px;
+    /* border: 1px solid white; */
+    border: none;
+}
+
+/* heading paragraph section */
+h1.h1-custom{
+    margin-top: 60px;
+    font-size: 68px;
+    font-weight: bold;
+    color: #696969;
+}
+
+p.p-secondary{
+    font-size: 16;
+    color: #696969;
+    width: 78%;
+
+}
+
+/* img hero */
+img.img-hero{
+    position: absolute;
+    right: 5%;
+    top: 0;
+}
+
+.product-items{
+    align-items: center;
+    justify-content: center;
+}
+
+.items{
+    display: block;
+    height: 300px;
+    width: 270px;
+    margin-top: 190px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+    height: 250px;
+    padding: 10px;
+}
+
+.bg-tp-pink{
+    background-color: #FFDAF3;
+}
+.bg-tp-orange{
+    background-color: #FFE5DA;
+}
+.bg-tp-green{
+    background-color: #DAFFFB;
+}
+.bg-tp-yellow{
+    background-color: #FFF9DA;
+}
+
+img.img-product{
+    height: auto;
+    width: 130px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a.info-product{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #969696;
+}
+
+p.info-product{
+    font-size: 12px;
+    color: #969696;
+    font-weight: normal;;
+}
+
+.description-item{
+    margin-top: 79px;
+}
+
+.description-item{
+    margin-top: 79px;
+}
+
+img.img-twice{
+}
